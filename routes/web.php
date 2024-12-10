@@ -28,3 +28,10 @@ Route::get('/bank-total-mutasi-periode', [BankChartController::class, 'totalMuta
 // Route untuk total mutasi per tahun
 Route::get('/bank-total-mutasi-tahun', [BankChartController::class, 'totalMutasiPerTahun']);
 Route::get('/bank-mutasi-harian', [BankChartController::class, 'mutasiHarian']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

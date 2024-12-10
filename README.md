@@ -13,3 +13,11 @@ Pasang paket Chart.js melalui Laravel Chart dengan menjalankan perintah:
 Publikasikan file konfigurasi dengan menjalankan perintah:
 
   php artisan vendor:publish --tag=charts_config
+
+
+##Install adminLTE
+https://github.com/jeroennoten/Laravel-AdminLTE/wiki/Installation
+
+composer require jeroennoten/laravel-adminlte
+
+php artisan adminlte:install
